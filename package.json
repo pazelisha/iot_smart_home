@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "concurrently --raw \"npm run server\" \"npm run client\" \"npm run mqtt\"",
+    "server": "cd back && concurrently \"node index.js\" \"node bot.js\"",
+    "mqtt": "cd mqtt && py -u mqtt.py",
+    "client": "cd front && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
