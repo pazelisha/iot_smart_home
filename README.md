@@ -25,7 +25,7 @@ Before running NutriPet, ensure you have the following:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/nutripet.git
+   git clone https://github.com/pazelisha/iot_smart_home.git
    cd nutripet
    ```
 
