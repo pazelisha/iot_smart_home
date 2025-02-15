@@ -35,15 +35,19 @@ Before running NutriPet, ensure you have the following:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add:
+3. Create a `.env` file in the "back" directory and add:
 
    ```env
    MONGO_URI=your_mongodb_connection_string
-   GROQ_API_KEY=your_groq_api_key
-   TELEGRAM_API_KEY=your_telegram_api_key
+   GROQ_KEY=your_groq_api_key
+   TELEGRAM_KEY=your_telegram_api_key
+   ```
+4. Create a `.env` file in the "mqtt" directory and add:
+   ```env
+   MONGO_URI=your_mongodb_connection_string
    ```
 
-4. Start the project:
+5. Start the project:
 
    ```sh
    npm start
